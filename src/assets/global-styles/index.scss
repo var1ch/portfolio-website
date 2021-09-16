@@ -1,0 +1,24 @@
+@import "./variables/fonts";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $mainFont, sans-serif;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+*:hover {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
