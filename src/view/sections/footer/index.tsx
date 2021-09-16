@@ -1,12 +1,14 @@
-import React from "react";
-import "./styles.scss";
+import { StyledFooter } from "./styles";
 
 const Footer = () => {
   return (
-    <footer>
+    <StyledFooter>
       <p>Built with React and Love</p>
       <p>by Vitalii Variichuk</p>
-    </footer>
+      <a href="mailto:varich96@gmail.com" target="_blank" rel="noreferrer">
+        varich96@gmail.com
+      </a>
+    </StyledFooter>
   );
 };
 

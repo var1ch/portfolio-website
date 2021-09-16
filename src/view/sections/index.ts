@@ -1,4 +1,4 @@
-import Header from "./header";
-import Navigation from "./navigation";
-import Footer from "./footer";
+import Header from "./Header";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 export { Header, Navigation, Footer };
