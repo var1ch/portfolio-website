@@ -5,9 +5,6 @@ export const StyledDiv = styled.div`
   height: 70vh;
   padding: 0 100px 0 100px;
   font-size: 16px;
-  span.edu_info {
-    text-indent: 3em;
-  }
   .boldTitle {
     text-transform: uppercase;
     font-size: 20px;
@@ -21,7 +18,7 @@ export const StyledDiv = styled.div`
   }
   p {
     text-align: justify;
-    padding-left: 40px;
+    padding-left: 3em;
   }
   ul li {
     text-indent: 3em;

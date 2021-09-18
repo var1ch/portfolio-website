@@ -1,4 +1,5 @@
 import { StyledDiv } from "./styles";
+import InfoBlock from "./InfoBlock";
 
 export default function About() {
   return (
@@ -11,35 +12,42 @@ export default function About() {
         laudantium ullam impedit dolorum quia praesentium amet saepe id soluta,
         corporis est sit deserunt reiciendis repellat esse nemo aperiam.
       </p>
-      <h2 className="boldTitle">Education:</h2>
-      <ul>
-        <li>Lesya Ukrainka Volyn National University (2014 - 2020)</li>
-        <li>Department of Psychology and Sociology</li>
-        <li>Masters degree of Sociology (with honours)</li>
-      </ul>
-      <h2 className="boldTitle">Soft skills:</h2>
-      <ul>
-        <li>Problem solving</li>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
-      </ul>
-      <h2 className="boldTitle">Languages:</h2>
-      <ul>
-        <li>English (A2 - B1)</li>
-        <li>Ukrainian (native)</li>
-        <li>Russian</li>
-      </ul>
-      <h2 className="boldTitle">Hardware:</h2>
-      <ul>
-        <li>CPU: AMD Ryzen 5 3400g</li>
-        <li>Video: Radeon™ RX Vega 11 Graphics (2 Gb)</li>
-        <li>RAM: 16 Gb</li>
-        <li>SSD: Kingston A400</li>
-        <li>Microphone: HyperX QuadCast</li>
-      </ul>
+      <InfoBlock
+        title="Education:"
+        info={[
+          "Lesya Ukrainka Volyn National University (2014 - 2020)",
+          "Department of Psychology and Sociology",
+          "Master's degree in Sociology (with honours)",
+        ]}
+      />
+      <InfoBlock
+        title="Soft skills:"
+        info={[
+          "Problem solving",
+          "Lorem ipsum",
+          "Lorem ipsum",
+          "Lorem ipsum",
+          "Lorem ipsum",
+        ]}
+      />
+      <InfoBlock
+        title="Languages:"
+        info={[
+          "English (A2 - B1)",
+          "Ukrainian (native)",
+          "Russian (proficiency)",
+        ]}
+      />
+      <InfoBlock
+        title="Hardware"
+        info={[
+          "CPU: AMD Ryzen 5 3400g",
+          "Video: Radeon™ RX Vega 11 Graphics (2 Gb)",
+          "RAM: 16 Gb",
+          "SSD: Kingston A400",
+          "Microphone: HyperX QuadCast",
+        ]}
+      />
     </StyledDiv>
   );
 }

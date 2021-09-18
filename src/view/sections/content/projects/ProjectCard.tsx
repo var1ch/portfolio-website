@@ -2,10 +2,9 @@ import { StyledProjectCardDiv } from "./styles";
 import { BsListTask, BsQuestionDiamond } from "react-icons/bs";
 import { SiAndroid, SiMarkdown } from "react-icons/si";
 
-interface Props {
+interface Props extends IconProps {
   projectTitle: string;
   techStack: string[];
-  icon: "quiz" | "todo" | "md" | "android";
 }
 
 interface IconProps {
@@ -28,19 +27,22 @@ const Icon = (props: IconProps) => {
 export default function ProjectCard(props: Props) {
   return (
     <StyledProjectCardDiv>
-      <a href="#" target="_blank">
-        <div className="image">
-          <Icon icon={props.icon} />
-        </div>
-        <div className="info">
-          <span className="project_title">{props.projectTitle}</span>
-          <ul>
-            {props.techStack.map((title) => (
-              <li>#{title}</li>
-            ))}
-          </ul>
-        </div>
-      </a>
+      <li>
+        <a href="#" target="_blank">
+          <div className="image">
+            <Icon icon={props.icon} />
+          </div>
+          <div className="info">
+            <span className="project_title">{props.projectTitle}</span>
+            <br />
+            <ul>
+              {props.techStack.map((title) => (
+                <li>#{title}</li>
+              ))}
+            </ul>
+          </div>
+        </a>
+      </li>
     </StyledProjectCardDiv>
   );
 }

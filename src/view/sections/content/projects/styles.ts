@@ -14,7 +14,7 @@ export const StyledDiv = styled.div`
 export const StyledProjectCardDiv = styled.div`
   margin-right: 25px;
   margin-bottom: 25px;
-  width: 250px;
+  width: 380px;
   font-size: 10px;
   display: inline-block;
   border: 2px solid white;
@@ -34,7 +34,7 @@ export const StyledProjectCardDiv = styled.div`
   }
   .info {
     display: inline-block;
-    width: 170px;
+    width: 300px;
   }
   ul {
     display: inline-block;
