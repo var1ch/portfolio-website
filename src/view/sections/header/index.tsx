@@ -3,10 +3,11 @@ import {
   RiFacebookBoxFill,
   RiGithubFill,
 } from "react-icons/ri";
+import { FaTelegram } from "react-icons/fa";
 import avatar from "../../../assets/images/avatar.png";
 import { StyledHeader } from "./styles";
 
-const Header = () => {
+export default function Header() {
   return (
     <StyledHeader>
       <img className="avatar_image" src={avatar} alt="#" />
@@ -14,7 +15,7 @@ const Header = () => {
         <ul>
           <li>
             <a
-              href="https://github.com/var1ch?tab=repositories"
+              href="https://github.com/var1ch"
               rel="noreferrer"
               target="_blank"
             >
@@ -39,10 +40,13 @@ const Header = () => {
               <RiFacebookBoxFill size={35} />
             </a>
           </li>
+          <li>
+            <a href="https://t.me/v4rich" rel="noreferrer" target="_blank">
+              <FaTelegram size={35} />
+            </a>
+          </li>
         </ul>
       </div>
     </StyledHeader>
   );
-};
-
-export default Header;
+}

@@ -1,34 +1,45 @@
 import { StyledDiv } from "./styles";
 
-const About = () => {
+export default function About() {
   return (
-    <StyledDiv className="about">
-      <h1>This is About Page</h1>
+    <StyledDiv>
+      <h1 className="boldTitle">
+        Hello, my name is Vitalii Variichuk and I want to become React Developer
+      </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis placeat
-        rem hic repudiandae non! Veritatis, non quo est iste magni quod,
-        corrupti expedita atque perspiciatis minus nobis, labore impedit dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laudantium
-        praesentium minima voluptatem. Dolores omnis, aspernatur iusto quod
-        laudantium tempore nemo! Totam nihil, tempora impedit optio, quaerat
-        assumenda eveniet facilis, ab deleniti voluptate aliquam odit
-        exercitationem minus architecto? Delectus accusamus commodi accusantium
-        minima dignissimos voluptatum reprehenderit ullam natus minus voluptatem
-        qui, consectetur similique debitis vitae eos ratione ipsam ex maxime
-        magni, tempora eveniet nulla. Voluptatum nulla ducimus, cumque obcaecati
-        recusandae exercitationem, veritatis, facere inventore veniam magni
-        corporis minima molestiae et omnis voluptas qui distinctio natus odio.
-        Eligendi provident magni quam illum magnam excepturi autem voluptas
-        ullam nobis optio saepe fuga modi doloribus, similique sequi ipsum,
-        incidunt esse. Excepturi natus vel aperiam cum tenetur voluptate amet
-        aliquam, officiis cupiditate accusamus quasi provident temporibus magnam
-        magni ipsam, beatae saepe? Magnam provident placeat excepturi facere
-        praesentium ex cumque porro, cupiditate, laboriosam dolore expedita vero
-        reiciendis accusamus reprehenderit nihil eos odio nemo. Necessitatibus,
-        dignissimos!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque labore et
+        laudantium ullam impedit dolorum quia praesentium amet saepe id soluta,
+        corporis est sit deserunt reiciendis repellat esse nemo aperiam.
       </p>
+      <h2 className="boldTitle">Education:</h2>
+      <ul>
+        <li>Lesya Ukrainka Volyn National University (2014 - 2020)</li>
+        <li>Department of Psychology and Sociology</li>
+        <li>Masters degree of Sociology (with honours)</li>
+      </ul>
+      <h2 className="boldTitle">Soft skills:</h2>
+      <ul>
+        <li>Problem solving</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+      </ul>
+      <h2 className="boldTitle">Languages:</h2>
+      <ul>
+        <li>English (A2 - B1)</li>
+        <li>Ukrainian (native)</li>
+        <li>Russian</li>
+      </ul>
+      <h2 className="boldTitle">Hardware:</h2>
+      <ul>
+        <li>CPU: AMD Ryzen 5 3400g</li>
+        <li>Video: Radeon™ RX Vega 11 Graphics (2 Gb)</li>
+        <li>RAM: 16 Gb</li>
+        <li>SSD: Kingston A400</li>
+        <li>Microphone: HyperX QuadCast</li>
+      </ul>
     </StyledDiv>
   );
-};
-
-export default About;
+}

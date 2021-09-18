@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { StyledNav } from "./styles";
 
-const Navigation = () => {
+export default function Navigation() {
   return (
     <StyledNav className="navigation">
       <ul>
@@ -9,17 +9,12 @@ const Navigation = () => {
           <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">About Me</Link>
         </li>
         <li>
           <Link to="/skills">Skills</Link>
         </li>
-        <li>
-          <Link to="/contact">Contact Me</Link>
-        </li>
       </ul>
     </StyledNav>
   );
-};
-
-export default Navigation;
+}

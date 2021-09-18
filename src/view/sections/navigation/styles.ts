@@ -16,9 +16,6 @@ export const StyledNav = styled.nav`
         cursor: pointer;
         border-bottom-color: white;
       }
-      &:focus {
-        border-bottom-color: white;
-      }
     }
   }
 `;

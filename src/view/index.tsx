@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import { HashRouter as Router, Route, Redirect } from "react-router-dom";
 import { Header, Navigation, Footer } from "./sections";
-import { Projects, About, Skills, Contact } from "./sections/content";
+import { Projects, About, Skills } from "./sections/content";
 import { StyledDiv } from "./styles";
 
-const Root = () => {
+export default function Root() {
   return (
     <Router>
       <StyledDiv>
@@ -16,12 +16,9 @@ const Root = () => {
           <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/skills" component={Skills} />
-          <Route path="/contact" component={Contact} />
           <Footer />
         </div>
       </StyledDiv>
     </Router>
   );
-};
-
-export default Root;
+}

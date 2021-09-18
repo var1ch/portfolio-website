@@ -3,7 +3,6 @@ import { darkTheme } from "../assets/global-styles/colors";
 
 export const StyledDiv = styled.div`
   background-color: ${darkTheme.backgroundColor};
-
   & * {
     color: ${darkTheme.fontColor};
   }
