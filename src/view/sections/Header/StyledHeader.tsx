@@ -1,18 +1,14 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 16px;
-  .avatar_image {
-    margin: 0 auto;
-    width: 300px;
-    height: 300px;
-    display: block;
-  }
-  .socials {
+  div.socials {
     ul {
-      text-align: center;
+      display: flex;
       li {
-        display: inline-block;
         margin-right: 16px;
         &:last-child {
           margin-right: 0;

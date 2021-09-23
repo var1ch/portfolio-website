@@ -7,7 +7,7 @@ import {
 import { FaTelegram } from "react-icons/fa";
 import { FcLike } from "react-icons/fc";
 import { BsListTask, BsQuestionDiamond } from "react-icons/bs";
-import { SiAndroid, SiMarkdown } from "react-icons/si";
+import { SiAndroid, SiMarkdown, SiTypescript, SiRedux } from "react-icons/si";
 
 export type iconName =
   | "facebook"
@@ -19,7 +19,9 @@ export type iconName =
   | "android"
   | "markdown"
   | "todo"
-  | "quiz";
+  | "quiz"
+  | "typescript"
+  | "redux";
 
 interface Props {
   iconName: iconName;
@@ -83,6 +85,14 @@ export default function Icon(props: Props): JSX.Element {
           color={props.color}
           fill={props.fill}
         />
+      );
+    case "typescript":
+      return (
+        <SiTypescript size={props.size} color={props.color} fill={props.fill} />
+      );
+    case "redux":
+      return (
+        <SiRedux size={props.size} color={props.color} fill={props.fill} />
       );
   }
 }

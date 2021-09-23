@@ -5,4 +5,7 @@ export const StyledRoot = styled.div`
   min-width: 1024px;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;

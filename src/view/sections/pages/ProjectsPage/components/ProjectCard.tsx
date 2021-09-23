@@ -18,7 +18,7 @@ export default function ProjectCard(props: Props) {
         <div className="info">
           <span className="project_title">{props.projectTitle}</span>
           <br />
-          <ul>
+          <ul className="technology_stack">
             {props.techStack.map((title, index) => (
               <li key={index}>#{title}</li>
             ))}

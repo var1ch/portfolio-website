@@ -12,6 +12,24 @@ export default function ProjectsPage() {
           projectTitle="Inotasks"
           techStack={["TypeScript", "ReactNative", "Redux", "ReactNavigation"]}
         />
+        <ProjectCard
+          url="https://github.com/var1ch/inotasks"
+          iconName="android"
+          projectTitle="Inotasks"
+          techStack={["TypeScript", "ReactNative", "Redux", "ReactNavigation"]}
+        />
+        <ProjectCard
+          url="https://github.com/var1ch/inotasks"
+          iconName="android"
+          projectTitle="Inotasks"
+          techStack={["TypeScript", "ReactNative", "Redux", "ReactNavigation"]}
+        />
+        <ProjectCard
+          url="https://github.com/var1ch/inotasks"
+          iconName="android"
+          projectTitle="Inotasks"
+          techStack={["TypeScript", "ReactNative", "Redux", "ReactNavigation"]}
+        />
       </StyledProjectsPage>
     </StyledPage>
   );

@@ -1,7 +1,6 @@
 interface Props {
   title: string;
   description: string;
-  iconName?: "typescript" | "react" | "redux";
 }
 
 export default function SkillBlock(props: Props) {

@@ -1,20 +1,23 @@
 import styled from "styled-components";
 
 export const StyledNavigation = styled.nav<any>`
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 16px;
   font-size: 19px;
-  li {
-    display: inline-block;
-    margin-right: 16px;
-    &:last-child {
-      margin-right: 0;
-    }
-    a {
-      border-bottom: 2px solid transparent;
-      &:hover {
-        cursor: pointer;
-        border-bottom-color: white;
+  ul {
+    display: flex;
+    li {
+      margin-right: 16px;
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        border-bottom: 2px solid transparent;
+        &:hover {
+          cursor: pointer;
+          border-bottom-color: white;
+        }
       }
     }
   }
