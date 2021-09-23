@@ -8,8 +8,8 @@ export default function InfoBlock(props: Props) {
     <div>
       <h2 className="boldTitle">{props.title}</h2>
       <ul>
-        {props.info.map((element) => (
-          <li>{element}</li>
+        {props.info.map((info) => (
+          <li>{info}</li>
         ))}
       </ul>
     </div>

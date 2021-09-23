@@ -1,16 +1,11 @@
-import {
-  RiLinkedinBoxFill,
-  RiFacebookBoxFill,
-  RiGithubFill,
-} from "react-icons/ri";
-import { FaTelegram } from "react-icons/fa";
+import Icon from "../../components/Icon";
 import avatar from "../../../assets/images/avatar.png";
-import { StyledHeader } from "./styles";
+import { StyledHeader } from "./StyledHeader";
 
 export default function Header() {
   return (
     <StyledHeader>
-      <img className="avatar_image" src={avatar} alt="#" />
+      <img className="avatar_image" src={avatar} alt="" />
       <div className="socials">
         <ul>
           <li>
@@ -19,7 +14,7 @@ export default function Header() {
               rel="noreferrer"
               target="_blank"
             >
-              <RiGithubFill size={35} />
+              <Icon iconName="github" size={35} fill="white" />
             </a>
           </li>
           <li>
@@ -28,7 +23,7 @@ export default function Header() {
               rel="noreferrer"
               target="_blank"
             >
-              <RiLinkedinBoxFill size={35} />
+              <Icon iconName="linkedIn" size={35} fill="white" />
             </a>
           </li>
           <li>
@@ -37,12 +32,12 @@ export default function Header() {
               rel="noreferrer"
               target="_blank"
             >
-              <RiFacebookBoxFill size={35} />
+              <Icon iconName="facebook" size={35} fill="white" />
             </a>
           </li>
           <li>
             <a href="https://t.me/v4rich" rel="noreferrer" target="_blank">
-              <FaTelegram size={35} />
+              <Icon iconName="telegram" size={35} fill="white" />
             </a>
           </li>
         </ul>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledNav = styled.nav`
+export const StyledNavigation = styled.nav<any>`
   text-align: center;
   margin-bottom: 16px;
   font-size: 19px;

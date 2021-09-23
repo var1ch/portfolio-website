@@ -1,13 +1,12 @@
-import { StyledFooter } from "./styles";
-import { RiReactjsLine } from "react-icons/ri";
-import { FcLike } from "react-icons/fc";
+import { StyledFooter } from "./StyledFooter";
+import Icon from "../../components/Icon";
 
 export default function Footer() {
   return (
     <StyledFooter>
       <p>
-        Built with <RiReactjsLine size={20} fill={"aqua"} /> and{" "}
-        <FcLike size={20} />
+        Built with <Icon iconName="react" size={20} fill={"aqua"} /> and{" "}
+        <Icon iconName="heart" size={20} color="red" />
       </p>
       <p>by Vitalii Variichuk</p>
       <a href="mailto:varich96@gmail.com" target="_blank" rel="noreferrer">

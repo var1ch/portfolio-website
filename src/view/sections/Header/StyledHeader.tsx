@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledHeader = styled.div`
+export const StyledHeader = styled.header`
   margin-bottom: 16px;
   .avatar_image {
     margin: 0 auto;
