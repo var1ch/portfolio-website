@@ -5,9 +5,9 @@ export default function Navigation() {
   return (
     <StyledNavigation className="navigation">
       <ul>
-        <li key="1">
+        {/* <li key="1">
           <Link to="/projects">Projects</Link>
-        </li>
+        </li> */}
         <li key="2">
           <Link to="/about">About Me</Link>
         </li>

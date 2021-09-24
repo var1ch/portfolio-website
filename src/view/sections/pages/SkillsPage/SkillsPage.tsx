@@ -23,14 +23,10 @@ export default function SkillsPage() {
           title={skillsData.reactNative.title}
           description={skillsData.reactNative.description}
         />
-        <SkillBlock
-          title={skillsData.reactNative.title}
-          description={skillsData.reactNative.description}
-        />
-        <SkillBlock
+        {/* <SkillBlock
           title={skillsData.git.title}
           description={skillsData.git.description}
-        />
+        /> */}
       </StyledSkillsPage>
     </StyledPage>
   );

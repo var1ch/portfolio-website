@@ -1,6 +1,6 @@
 import { HashRouter as Router, Route, Redirect } from "react-router-dom";
 import { Header, Navigation, Footer } from "./sections";
-import { ProjectsPage, AboutPage, SkillsPage } from "./sections/pages";
+import { AboutPage, SkillsPage } from "./sections/pages";
 import { StyledRoot } from "./StyledRoot";
 
 export default function Root() {
@@ -9,10 +9,13 @@ export default function Root() {
       <StyledRoot>
         <Header />
         <Navigation />
-        <Route exact path="/">
+        {/* <Route exact path="/">
           <Redirect to="/projects" />
+        </Route> */}
+        {/* <Route path="/projects" component={ProjectsPage} /> */}
+        <Route exact path="/">
+          <Redirect to="/about" />
         </Route>
-        <Route path="/projects" component={ProjectsPage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/skills" component={SkillsPage} />
         <Footer />
