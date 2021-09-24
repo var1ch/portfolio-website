@@ -13,7 +13,7 @@ export default function ProjectCard(props: Props) {
     <div className="project_card">
       <a href={props.url} rel="noreferrer" target="_blank">
         <div className="image">
-          <Icon iconName={props.iconName} size={40} fill="white" />
+          <Icon iconName={props.iconName} fill="white" />
         </div>
         <div className="info">
           <span className="project_title">{props.projectTitle}</span>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledSkillsPage = styled.div`
   .skill-block {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
   h2 {
     text-align: center;
@@ -10,9 +10,10 @@ export const StyledSkillsPage = styled.div`
   p {
     text-align: justify;
     text-indent: 3em;
+    font-size: 1rem;
   }
   .boldTitle {
-    font-size: 20px;
+    font-size: 1.2rem;
   }
   @media screen and (max-width: 720px) {
     h2 {

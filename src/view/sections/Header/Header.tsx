@@ -17,6 +17,7 @@ export default function Header() {
             url="https://www.facebook.com/vitalii.variichuk"
             iconName="facebook"
           />
+          <SocialLink url="mailto:varich96@gmail.com" iconName="mail" />
           <SocialLink url="https://t.me/v4rich" iconName="telegram" />
         </ul>
       </div>

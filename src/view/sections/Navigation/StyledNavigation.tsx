@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const StyledNavigation = styled.nav<any>`
   display: flex;
   justify-content: center;
-  margin-bottom: 16px;
-  font-size: 19px;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
   ul {
     display: flex;
     li {
-      margin-right: 16px;
+      margin-right: 1rem;
       &:last-child {
         margin-right: 0;
       }
