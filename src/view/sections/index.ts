@@ -1,4 +1,5 @@
 import Header from "./Header/Header";
-import Navigation from "./Navigation/Navigation";
-import Footer from "./Footer/Footer";
-export { Header, Navigation, Footer };
+import About from "./About/About";
+import Projects from "./Projects/Projects";
+import Skills from "./Skills/Skills";
+export { Header, About, Skills, Projects };

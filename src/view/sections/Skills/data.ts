@@ -16,9 +16,9 @@ export const skillsData = {
     title: "Experience with React Native and React Navigation",
     description: `I have built one mobile app using this technology. I set up all the routing using React Navigation and state management with Redux.`,
   },
-  // git: {
-  //   title: "Git",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  // },
+  git: {
+    title: "Git",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
 };

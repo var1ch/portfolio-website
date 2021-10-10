@@ -1,12 +1,11 @@
-import { StyledSkillsPage } from "./StyledSkillsPage";
-import { StyledPage } from "../StyledPage";
+import { StyledSkills } from "./StyledSkills";
 import SkillBlock from "./components/SkillBlock";
 import { skillsData } from "./data";
 
 export default function SkillsPage() {
   return (
-    <StyledPage>
-      <StyledSkillsPage>
+    <div className="container">
+      <StyledSkills>
         <SkillBlock
           title={skillsData.typeScript.title}
           description={skillsData.typeScript.description}
@@ -23,11 +22,11 @@ export default function SkillsPage() {
           title={skillsData.reactNative.title}
           description={skillsData.reactNative.description}
         />
-        {/* <SkillBlock
+        <SkillBlock
           title={skillsData.git.title}
           description={skillsData.git.description}
-        /> */}
-      </StyledSkillsPage>
-    </StyledPage>
+        />
+      </StyledSkills>
+    </div>
   );
 }

@@ -1,24 +1,24 @@
 import styled from "styled-components";
 
-export const StyledProjectsPage = styled.div`
+export const StyledProjects = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: 1px solid red;
   div.project_card {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     border: 2px solid white;
     border-radius: 2px;
     font-size: 10px;
     div.image {
+      font-size: 2rem;
       float: left;
       padding: 10px;
       border-right: 2px solid white;
       margin-right: 10px;
+      height: 100%;
     }
     div.info {
       padding: 0 10px 0 10px;
-      width: 360px;
       span.project_title {
         font-size: 1.5em;
       }

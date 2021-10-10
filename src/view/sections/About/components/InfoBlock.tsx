@@ -1,18 +1,17 @@
 interface Props {
   title: string;
   info: string[];
-  className: string;
 }
 
 export default function InfoBlock(props: Props) {
   return (
-    <div className={`info_block ${props.className}`}>
-      <h2 className="boldTitle">{props.title}</h2>
-      <ul>
+    <div className={`info-block`}>
+      <h2 className="bold-title">{props.title}</h2>
+      <div>
         {props.info.map((info) => (
-          <li>{info}</li>
+          <p>{info}</p>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
