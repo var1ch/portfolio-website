@@ -1,5 +1,5 @@
-import Icon from "../../../components/Icon";
-import type { iconName } from "../../../components/Icon";
+import Icon from "../../../shared/Icon";
+import type { iconName } from "../../../shared/Icon";
 
 interface Props {
   url: string;

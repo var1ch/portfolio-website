@@ -1,4 +1,4 @@
-import Icon, { iconName } from "../../../components/Icon";
+import Icon, { iconName } from "../../../shared/Icon";
 
 interface Props {
   projectTitle: string;
